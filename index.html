@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PORTFOLIO</title>  
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width:100%;
+    height:100vh;
+    background-color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+nav{
+    width:84%;
+    margin:auto;
+    padding:20px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    width:200px;
+    cursor:pointer;
+    height:200px
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: blue;
+}
+
+nav ul li a:hover{
+    color:black;
+
+}
+.info h2{
+    font-size:100px;
+    color:#212121;
+    margin-bottom:20px;
+    padding-top:100px;
+    padding-left:80px;
+    text-align: center;
+}
+.info a{
+    text-decoration:none;
+    border-style:solid
+}
+
+ </style>
+</head>
+<body>
+
+    <div class="hero">
+
+            <nav>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIsAAACLCAMAAABmx5rNAAABC1BMVEX///8oSJAkRpEhRI4AKoQ/UH3s6+je4utYbKMfQo1tfKsIOo0bQI1cbaOnpqN1hLAAM4KipKkTPIv39/YcQ5MAL4YAM4fKyciKi44wTZKKiYTZ3ei9w9fS1+PL0N/t7/QAIIGRnL4AFF6zs7OamZWzutHQ0dQAFn5ZaJE/VpebnaYAD22/v8La2txHX5x2dn2dpsQZOn0jJz97eXRPYZAAI20AGGtARVeQk6ORlrCHk7lEWI1VYZpmcI8MNHwIL3AAH10MHUBPVWciNF0ADzoiNmsAACsABlklJzMAEU8xPFwYHDQbKUtkZWhRU1U+PkAAAEgAADpQX6c4SYNmbH9JT22orL0AAAARJVo2fcWuAAAEt0lEQVR4nO2W+1faShDHdzcxkGR5mOUVHonhpVBAKCr1hVatvXrFaqnc/v9/yZ0lICHR3p4evT/N5xzOYXd2Zr7ZnZ2EEARBEARBEARBEARBEARBEARBEARBEARB/phSudEoV14wCKdSickFlYrzvyhxbNMC0s2oKbZtmTuCuC3TUtvvlF40xCqfolPKOP/QWRq7K5tK2YZG3B6jmd13UVJOZLdWT9k3KR18HBaHy31xV1kXWsTewf7B+2gxLJopPI9SnLKRFjA3P4W1kGatVsv/bnjXjUyEZ1ak9JCWcSFgdQ+d58pZagnFjr0YO2UYKVKOb6vqFu0vV5Q8ZUuFGf2oNB8fGcYRcRJZlfVJLGWkWlAfx+DZJ64/0o8Nw5AVJBq9ra0TV99u+cGWWjzDiPsV5hjZeexeP6KnZ3F+anGmMKrk4rH5XJ+ZCqUK/EzuyYkTi48/WRxybogKODA6L9bMvnCptRzlapA6ntOVs4R7mOOmXQpoMUyuJmWohAzjZ2uFb3kcMurs/PPFZZZRTuVUYwtWn1+NLqppSnN9GQAWjSljurWhxb5UqwPIflatVq+F2Pta1f3R1zoRnNPBX4VELF8Y6IruBrTo1EzOpUC6m7uL2yqniloKaYFIyt/wSKRjM2odgrt8zLu63PA2GLMVXwsd3E0mw4Ig+XwexpndJvwhpJvP7+iUF2CgEc+i+r1Wjse6mugpfC+ipZyFbN9kEWunFlWORUTLjV/hDiy03fn6/aRvPeKUn/paBt9WXSNSu+nNeUn2LOuhKfrxmFYT5Ry1mmEtkI09+qUsWgpVOyQIWPUfi/+QUW2SI4uyq8VMBf5PNamF3QWe4RUtsT1v1oVl/Urqe+tkaqc/hbQIG866vnCDTcz8IEFAi7W5+g9BITRfromBlkFTauHDgNPLWmrtWQPeS0AZcBynPNuEvQ5ocaWW2sKtD7GfXtUCu5Zur2kpQakN8lKLVQ84vayl284N7Onx90TJg/vYbXiJUa2Ti+zL8lyklouIlsPFJqhQKDXSkO7L9dBSv3TnWpIBJ+PlM4J61Xfqkw7xTu4nTyZPF8L10oNAs1XmqBZKxTIDPe+SEjQA1e9DLuwUG4mIllfqRZYahysivGmNJHQ6Toa19HNUT/heUNur2llp4T3HFZUEvOLYPcg6MqliN1zilltg3K+TiBbYXiXuVMqlkBY3y3jCJcK77abgBD6KsBb5cKbhCBHzZMu76ka0TDm3bV2++B/nL5JjSGVRm3LYlbFUF9bi5hjVObN+hrSQcprpiuF6Uxta2edOtNc1Veioum1TKET2kCRhLbx9qmYYML72jdrTwXzMMvzxXnaDE9PKrvnNPmQkD/7ZQn9fln/nJpfZLnk8w8//kV0LvqUsqSUB31LzCJ2fuUXss+v1E1reo9rk9vL2vv7cQvLDi9vLy9Fk6G9it1gsrn+05YsT6MLFZ+vqeyA5fJod3k2Gi6ubLBZl2MCa5C7Evh0N6+tNl6zutKZpazahhWfCiNesQtvN/9rzldDB/vJWiNEvpbwKvKffXAsJF8JvYuyP999cy59tC9GSyWT3v5chCIIgCIIgCIIgCIIgCIIgCIIgCIIgCPKW/AtwxXeJ70a3xwAAAABJRU5ErkJggg==" class ="logo"> 
+            <ul>
+                <li><a href="#" >HOME </a></li>
+                <li><a href="education.html">EDUCATION </a></li>
+                <li><a href="personal.html" >ABOUT</a></li>
+                <li><a href="HIRE ME.html" >HIRE ME</a></li></ul></nav> 
+
+
+<div class="info">
+    <h2>  Hey! this is Jahnavi</h2>
+</div>
+       </div>
+</body>
+</html>
